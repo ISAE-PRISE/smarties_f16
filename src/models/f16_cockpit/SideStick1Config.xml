@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- More details about parameters in the doxygen documentation -->
+<SMARTIES_CONFIG_ITEM>
+	<JOYSTICK federateName="Joystick_Fed">
+		<input>
+			<Aileron>
+				<value>0</value>
+				<possibleValues>[[0,6]]</possibleValues>
+				<documentation>Select the number of the axis</documentation>
+			</Aileron>
+			<Elevator>
+				<value>1</value>
+				<possibleValues>[[0,6]]</possibleValues>
+				<documentation>Select the number of the axis</documentation>
+			</Elevator>
+			<Rudder>
+				<value>3</value>
+				<possibleValues>[[0,6]]</possibleValues>
+				<documentation>Select the number of the axis</documentation>
+			</Rudder>
+			<Throttle_Left>
+				<value>2</value>
+				<possibleValues>[[0,6]]</possibleValues>
+				<documentation>Select the number of the axis</documentation>
+			</Throttle_Left>
+			<Throttle_Right>
+				<value>2</value>
+				<possibleValues>[[0,6]]</possibleValues>
+				<documentation>Select the number of the axis</documentation>
+			</Throttle_Right>
+			<Flaps_Up>
+				<value>0</value>
+				<possibleValues>[[0,23]]</possibleValues>
+				<documentation>Select the number of the button</documentation>
+			</Flaps_Up>
+			<Flaps_Down>
+				<value>1</value>
+				<possibleValues>[[0,23]]</possibleValues>
+				<documentation>Select the number of the button</documentation>
+			</Flaps_Down>
+			<Spoilers>
+				<value>2</value>
+				<possibleValues>[[0,23]]</possibleValues>
+				<documentation>Select the number of the button</documentation>
+			</Spoilers>
+			<Gears>
+				<value>3</value>
+				<possibleValues>[[0,23]]</possibleValues>
+				<documentation>Select the number of the button</documentation>
+			</Gears>
+			<Brakes>
+				<value>4</value>
+				<possibleValues>[[0,23]]</possibleValues>
+				<documentation>Select the number of the button</documentation>
+			</Brakes>
+		</input>
+		<port>
+			<Aileron>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Aileron>
+			<Elevator>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Elevator>
+			<Rudder>
+				<value>3</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Rudder>
+			<Throttle_Left>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Throttle_Left>
+			<Throttle_Right>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Throttle_Right>
+			<Flaps_Up>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Flaps_Up>
+			<Flaps_Down>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Flaps_Down>
+			<Spoilers>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Spoilers>
+			<Gears>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Gears>
+			<Brakes>
+				<value>1</value>
+				<possibleValues>[[0,1]]</possibleValues>
+				<documentation>Select the joystick the input will come from</documentation>
+			</Brakes>
+		</port>
+		<sensitivity>
+			<Aileron>
+				<value>1</value>
+				<possibleValues>[-1,1]</possibleValues>
+				<documentation>Change this value to set joystick effectiveness or reverse the input</documentation>
+			</Aileron>
+			<Elevator>
+				<value>1</value>
+				<possibleValues>[-1,1]</possibleValues>
+				<documentation>Change this value to set joystick effectiveness or reverse the input</documentation>
+			</Elevator>
+			<Rudder>
+				<value>1</value>
+				<possibleValues>[-1,1]</possibleValues>
+				<documentation>Change this value to set joystick effectiveness or reverse the input</documentation>
+			</Rudder>
+			<Throttle_Left>
+				<value>1</value>
+				<possibleValues>[[-1,1]]</possibleValues>
+				<documentation>Change this value to reverse the input</documentation>
+			</Throttle_Left>
+			<Throttle_Right>
+				<value>1</value>
+				<possibleValues>[[-1,1]]</possibleValues>
+				<documentation>Change this value to reverse the input</documentation>
+			</Throttle_Right>
+		</sensitivity>
+	</JOYSTICK>
+</SMARTIES_CONFIG_ITEM>
+   
